@@ -15,6 +15,8 @@
               display: inline-block;
               background-color: #363636;
               width: 100%;
+              position: fixed;
+              top: 0;
           }
           .content{
             background-color: #4d4d4d;
@@ -29,23 +31,62 @@
           }
           a{
             text-decoration: underline;
-            color: #0700c7;
+            color: #7f7aff;
           }
           a:hover{
             transition: color .4s;
             transition: text-decoration .4s;
-            color: #0051ff;
+            color: #ffffff;
             text-decoration: none;
+        }
+        .nav-item{
+          display: inline-block;
+        }
+        html, body{
+          background-color: #4d4d4d;
+        }
+        .release-box{
+          border-radius: 6px;
+          border-color: white;
+          border-width: 2px;
+          border-style: solid;
+          width: 10%;
+          
+        }
+        .button{
+          background-color: rgb(18, 14, 255);
+          border-radius: 9px;
+          padding: 5px 6px;
+          text-decoration: none;
+          color: white;
+        }
+        .button:hover{
+          background-color: rgb(60, 57, 255);
+        }
+        .button:active{
+          background-color: rgb(106, 103, 255);
+          transition: padding .9s;
+          padding: 8px 8px;
+        }
+        .button:disabled{
+          background-color: rgb(154, 169, 255); !important
         }
       </style>
     <div class="header">
-        <h1>Edgenotes</h1><p>|</p><a>Downloads</a><p>|</p>
+       <div class="nav-item"><h1>Edgenotes</div><div class="nav-item"><h1>|</h1></div><div class="nav-item"><h1><a href="">Downloads</a></h1></div><div class="nav-item"><h1>|</h1></h1></div>
     </div>
     <p>This is where you will find notes that I have taken. I will upload one .zip file each week,<br> and when the month is finished I will upload the .zip for that month.</p>
     <div class="content">
         <h1>Downloads:</h1>
-        <a href="">No Notes Yet...Check back later.</a>
-        <p>In the meantime, check out the <a href="">Github</a>.</p>
+        <p">No Notes Yet...Check back later.</p>
+        <!--<div class="release-box">
+          <center>
+          <h2>Nothing Here....</h2>
+          <br><br>
+          <a href="#" class="button" disabled="disabled">download</a>
+          </center>
+        </div>-->
+        <p>In the meantime, check out the <a href="https://github.com/DankBoi293/Notes">Github</a>.</p>
     </div>
 </body>
 </html>
