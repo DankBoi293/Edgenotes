@@ -13,3 +13,7 @@
 .loader234543{
   
 }
+.otherRoute{
+ position:relative;
+ z-index: -1;
+}
