@@ -12,4 +12,7 @@ background-color: #555555; !important
 }
 *{
  color: white;  
+ background-color: #555555; !important
+   border-color: white;
+    border-style: solid 3px;
 }
