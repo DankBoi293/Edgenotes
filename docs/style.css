@@ -4,9 +4,10 @@
 .edgenuity{
 background-color: #555555; !important
 }
-.col-xl-3, .col-lg-4, .col-md-6, .col-sm-12{
+.col-xl-3, .col-lg-4, .col-md-6, .col-sm-12, .sle-card, .card{
     background-color: #555555; !important
 }
+
 *{
  color: white;  
 }
