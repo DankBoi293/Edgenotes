@@ -1,4 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-*{
+.message-body,.conversation-folder__head__name,.conversation-list-cell-name, .accent-text{
     font-family: 'Quicksand'; !important
 }
