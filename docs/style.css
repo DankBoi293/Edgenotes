@@ -4,6 +4,7 @@
 }
 .anchor{
     opacity: .2;
+    transition: all .5;
 }
 .anchor:hover{
     opacity: 1;   
