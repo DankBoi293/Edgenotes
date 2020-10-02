@@ -2,3 +2,16 @@
 *{
     font-family: 'Quicksand'; !important
 }
+.anchor{
+    opacity: .2;
+}
+.anchor:hover{
+    opacity: 1;   
+    transition: all .5;
+}
+.anchor:active{
+
+    opacity: 1;   
+    color: blue;
+    transition: all .5;
+}
